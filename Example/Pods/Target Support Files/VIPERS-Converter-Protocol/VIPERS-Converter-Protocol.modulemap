@@ -1,0 +1,6 @@
+framework module VIPERS_Converter_Protocol {
+  umbrella header "VIPERS-Converter-Protocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

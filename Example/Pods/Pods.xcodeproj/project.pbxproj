@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE75E6C1F5ECC60231DE70CA05DDE70 /* VIPERS-Converter-Protocol-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4DB8FC51AD9572961DDF99F7F7CBCE /* VIPERS-Converter-Protocol-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DC5ED6E1C63BFD525BE4546510AAD3F /* ComposedConverterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BC26C982732FDFD21C7DA79B0A5144 /* ComposedConverterProtocol.swift */; };
+		6A0CA1C327ECC4646D1725C3E2415D68 /* Pods-VIPERS-Converter-Protocol_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E315F5E820D9D894197065982DD93C /* Pods-VIPERS-Converter-Protocol_Example-dummy.m */; };
+		72B7F4C37D57F6F8EE27572DF84D003A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		781FBFBA121D4952DED31EADA5C745FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9CB27693C1D4133E1D6092109DD3DEE9 /* ConverterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0DD0543F12EB6593F6911281F5D803 /* ConverterProtocol.swift */; };
+		A99557F9E4E6F08FF08132D321396AFF /* Pods-VIPERS-Converter-Protocol_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF052720F207A12C7DA1DE4AECF91FD2 /* Pods-VIPERS-Converter-Protocol_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3881082A17130E2B1EEF3FAD765DEA2 /* TypedConverterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CF8C7A968F09278FDB40FB615E8F4 /* TypedConverterProtocol.swift */; };
+		B739D25C953803E343C6B540DC37B472 /* VIPERS-Converter-Protocol-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A59E486CF90D9516A0B6F8FAB715C30 /* VIPERS-Converter-Protocol-dummy.m */; };
+		CFA132AC95E21DA18385CC2CC1F84289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DA033A839FE012785B374404BABE9E44 /* Pods-VIPERS-Converter-Protocol_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E4D2C88B996B5BCC1360F148BCC4B /* Pods-VIPERS-Converter-Protocol_Tests-dummy.m */; };
+		FF64D54B8FED8B1B2192E1CB775538BC /* Pods-VIPERS-Converter-Protocol_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5EEDD3B1EA8755DB909BDA25D29070 /* Pods-VIPERS-Converter-Protocol_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A09AA95275DE99B99F3519B206653E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59707D5809C4F8619D3FA5018E8D3ECD;
+			remoteInfo = "VIPERS-Converter-Protocol";
+		};
+		610B07067A0BF31545BA70793D3CD3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59707D5809C4F8619D3FA5018E8D3ECD;
+			remoteInfo = "VIPERS-Converter-Protocol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0394CD82105F2941CF7215A78D81DF32 /* VIPERS-Converter-Protocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIPERS-Converter-Protocol-prefix.pch"; sourceTree = "<group>"; };
+		0C0E4D2C88B996B5BCC1360F148BCC4B /* Pods-VIPERS-Converter-Protocol_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIPERS-Converter-Protocol_Tests-dummy.m"; sourceTree = "<group>"; };
+		18BC26C982732FDFD21C7DA79B0A5144 /* ComposedConverterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComposedConverterProtocol.swift; sourceTree = "<group>"; };
+		1F12D079FF25AC6483334C0E909A6E0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F379E934BAE567D475E28FD33A33C6 /* Pods-VIPERS-Converter-Protocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERS-Converter-Protocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A59E486CF90D9516A0B6F8FAB715C30 /* VIPERS-Converter-Protocol-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIPERS-Converter-Protocol-dummy.m"; sourceTree = "<group>"; };
+		2FC7E6C53799C5257364E45EA94FD853 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		325CFA68EFB625394AFDBB46A38E15F8 /* Pods_VIPERS_Converter_Protocol_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERS_Converter_Protocol_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B2CDBD22D3BDD01EC1928E687A49E5 /* Pods-VIPERS-Converter-Protocol_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIPERS-Converter-Protocol_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		61668129273455E70C1DEE3DD4B2D7A1 /* Pods-VIPERS-Converter-Protocol_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIPERS-Converter-Protocol_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63DE92AE689423200F22F50FFD3EB3C9 /* VIPERS-Converter-Protocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "VIPERS-Converter-Protocol.xcconfig"; sourceTree = "<group>"; };
+		786D744892F0EBC9E408E1F83DA1A568 /* Pods-VIPERS-Converter-Protocol_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIPERS-Converter-Protocol_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C864A7A44A0498493C7E72A8B713BE8 /* Pods-VIPERS-Converter-Protocol_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VIPERS-Converter-Protocol_Tests.modulemap"; sourceTree = "<group>"; };
+		81C05DB62D979E93F84C2CCAB52592A3 /* Pods-VIPERS-Converter-Protocol_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERS-Converter-Protocol_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		89E315F5E820D9D894197065982DD93C /* Pods-VIPERS-Converter-Protocol_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIPERS-Converter-Protocol_Example-dummy.m"; sourceTree = "<group>"; };
+		8B5EEDD3B1EA8755DB909BDA25D29070 /* Pods-VIPERS-Converter-Protocol_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIPERS-Converter-Protocol_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C036682E8209B952353DC63E4DD139 /* Pods-VIPERS-Converter-Protocol_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERS-Converter-Protocol_Tests-resources.sh"; sourceTree = "<group>"; };
+		958CF8C7A968F09278FDB40FB615E8F4 /* TypedConverterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TypedConverterProtocol.swift; sourceTree = "<group>"; };
+		9B09EAA2E0A6E4F5759DE6A5CA982C4D /* Pods-VIPERS-Converter-Protocol_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERS-Converter-Protocol_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A0A4F64F60145503192BFF7ADFAF10C3 /* Pods-VIPERS-Converter-Protocol_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPERS-Converter-Protocol_Example-resources.sh"; sourceTree = "<group>"; };
+		AF052720F207A12C7DA1DE4AECF91FD2 /* Pods-VIPERS-Converter-Protocol_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIPERS-Converter-Protocol_Example-umbrella.h"; sourceTree = "<group>"; };
+		BF0DD0543F12EB6593F6911281F5D803 /* ConverterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConverterProtocol.swift; sourceTree = "<group>"; };
+		BFA80D7EF69599E492A3010DD856D24D /* VIPERS-Converter-Protocol.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "VIPERS-Converter-Protocol.modulemap"; sourceTree = "<group>"; };
+		C50DA3DDAAAFD31DDA93CA3BA9A8E97A /* Pods-VIPERS-Converter-Protocol_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIPERS-Converter-Protocol_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCCCD20F13AFEB9B10D12383D7912078 /* Pods_VIPERS_Converter_Protocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPERS_Converter_Protocol_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF6D096C5800B577A00941A1F08AE549 /* Pods-VIPERS-Converter-Protocol_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERS-Converter-Protocol_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFD315EA34CD1D500C11F7B9B519AE12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4065209BA91F9F680F1D4D086DBC99 /* Pods-VIPERS-Converter-Protocol_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VIPERS-Converter-Protocol_Example.modulemap"; sourceTree = "<group>"; };
+		DF4DB8FC51AD9572961DDF99F7F7CBCE /* VIPERS-Converter-Protocol-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIPERS-Converter-Protocol-umbrella.h"; sourceTree = "<group>"; };
+		EAEBEC6EC0867B35C40A51D361B46319 /* VIPERS_Converter_Protocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIPERS_Converter_Protocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FB1FFA8051B64114BDD83202E9A6C9 /* Pods-VIPERS-Converter-Protocol_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERS-Converter-Protocol_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF35C5E36C1C5D4A3D38559F57F8DF6B /* Pods-VIPERS-Converter-Protocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPERS-Converter-Protocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C017ACB50288BF4EF0A48E61D2119BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B7F4C37D57F6F8EE27572DF84D003A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07BD36400A3719003EDD1CAE273FDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781FBFBA121D4952DED31EADA5C745FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADB3892F41CB41F5F30E76B36EE02CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA132AC95E21DA18385CC2CC1F84289 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E6B57F5D71E6273BC8ED3B0BE72FDA /* Pods-VIPERS-Converter-Protocol_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F12D079FF25AC6483334C0E909A6E0C /* Info.plist */,
+				DC4065209BA91F9F680F1D4D086DBC99 /* Pods-VIPERS-Converter-Protocol_Example.modulemap */,
+				C50DA3DDAAAFD31DDA93CA3BA9A8E97A /* Pods-VIPERS-Converter-Protocol_Example-acknowledgements.markdown */,
+				37B2CDBD22D3BDD01EC1928E687A49E5 /* Pods-VIPERS-Converter-Protocol_Example-acknowledgements.plist */,
+				89E315F5E820D9D894197065982DD93C /* Pods-VIPERS-Converter-Protocol_Example-dummy.m */,
+				9B09EAA2E0A6E4F5759DE6A5CA982C4D /* Pods-VIPERS-Converter-Protocol_Example-frameworks.sh */,
+				A0A4F64F60145503192BFF7ADFAF10C3 /* Pods-VIPERS-Converter-Protocol_Example-resources.sh */,
+				AF052720F207A12C7DA1DE4AECF91FD2 /* Pods-VIPERS-Converter-Protocol_Example-umbrella.h */,
+				F2FB1FFA8051B64114BDD83202E9A6C9 /* Pods-VIPERS-Converter-Protocol_Example.debug.xcconfig */,
+				CF6D096C5800B577A00941A1F08AE549 /* Pods-VIPERS-Converter-Protocol_Example.release.xcconfig */,
+			);
+			name = "Pods-VIPERS-Converter-Protocol_Example";
+			path = "Target Support Files/Pods-VIPERS-Converter-Protocol_Example";
+			sourceTree = "<group>";
+		};
+		396EE49B357EDCDE66E43BF4C371FC05 /* Pods-VIPERS-Converter-Protocol_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC7E6C53799C5257364E45EA94FD853 /* Info.plist */,
+				7C864A7A44A0498493C7E72A8B713BE8 /* Pods-VIPERS-Converter-Protocol_Tests.modulemap */,
+				61668129273455E70C1DEE3DD4B2D7A1 /* Pods-VIPERS-Converter-Protocol_Tests-acknowledgements.markdown */,
+				786D744892F0EBC9E408E1F83DA1A568 /* Pods-VIPERS-Converter-Protocol_Tests-acknowledgements.plist */,
+				0C0E4D2C88B996B5BCC1360F148BCC4B /* Pods-VIPERS-Converter-Protocol_Tests-dummy.m */,
+				81C05DB62D979E93F84C2CCAB52592A3 /* Pods-VIPERS-Converter-Protocol_Tests-frameworks.sh */,
+				93C036682E8209B952353DC63E4DD139 /* Pods-VIPERS-Converter-Protocol_Tests-resources.sh */,
+				8B5EEDD3B1EA8755DB909BDA25D29070 /* Pods-VIPERS-Converter-Protocol_Tests-umbrella.h */,
+				27F379E934BAE567D475E28FD33A33C6 /* Pods-VIPERS-Converter-Protocol_Tests.debug.xcconfig */,
+				FF35C5E36C1C5D4A3D38559F57F8DF6B /* Pods-VIPERS-Converter-Protocol_Tests.release.xcconfig */,
+			);
+			name = "Pods-VIPERS-Converter-Protocol_Tests";
+			path = "Target Support Files/Pods-VIPERS-Converter-Protocol_Tests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		526810D831F48F703E7290503113110F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EB335E2DB8E54B3AC19120CC47D84BA8 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		696FC721647FDF283E18A35FF44B8E0E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97EBD31EF3D7B47364A63B7C0081CE37 /* VIPERS-Converter-Protocol */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		72F0DD5E46906D70B1E671225E842806 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD315EA34CD1D500C11F7B9B519AE12 /* Info.plist */,
+				BFA80D7EF69599E492A3010DD856D24D /* VIPERS-Converter-Protocol.modulemap */,
+				63DE92AE689423200F22F50FFD3EB3C9 /* VIPERS-Converter-Protocol.xcconfig */,
+				2A59E486CF90D9516A0B6F8FAB715C30 /* VIPERS-Converter-Protocol-dummy.m */,
+				0394CD82105F2941CF7215A78D81DF32 /* VIPERS-Converter-Protocol-prefix.pch */,
+				DF4DB8FC51AD9572961DDF99F7F7CBCE /* VIPERS-Converter-Protocol-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VIPERS-Converter-Protocol";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				696FC721647FDF283E18A35FF44B8E0E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C5B7DA5E324C3BE104C8D880A773EB8E /* Products */,
+				A91D182C15B0C765D2C935343FD07246 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97EBD31EF3D7B47364A63B7C0081CE37 /* VIPERS-Converter-Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				526810D831F48F703E7290503113110F /* Pod */,
+				72F0DD5E46906D70B1E671225E842806 /* Support Files */,
+			);
+			name = "VIPERS-Converter-Protocol";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A91D182C15B0C765D2C935343FD07246 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13E6B57F5D71E6273BC8ED3B0BE72FDA /* Pods-VIPERS-Converter-Protocol_Example */,
+				396EE49B357EDCDE66E43BF4C371FC05 /* Pods-VIPERS-Converter-Protocol_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5B7DA5E324C3BE104C8D880A773EB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				325CFA68EFB625394AFDBB46A38E15F8 /* Pods_VIPERS_Converter_Protocol_Example.framework */,
+				CCCCD20F13AFEB9B10D12383D7912078 /* Pods_VIPERS_Converter_Protocol_Tests.framework */,
+				EAEBEC6EC0867B35C40A51D361B46319 /* VIPERS_Converter_Protocol.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB335E2DB8E54B3AC19120CC47D84BA8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18BC26C982732FDFD21C7DA79B0A5144 /* ComposedConverterProtocol.swift */,
+				BF0DD0543F12EB6593F6911281F5D803 /* ConverterProtocol.swift */,
+				958CF8C7A968F09278FDB40FB615E8F4 /* TypedConverterProtocol.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52D6BA6DE0937422BCF9F91511432C68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99557F9E4E6F08FF08132D321396AFF /* Pods-VIPERS-Converter-Protocol_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838A4A174D6C3ABDE679AB87D48854C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF64D54B8FED8B1B2192E1CB775538BC /* Pods-VIPERS-Converter-Protocol_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFEEAE588DCBBDA1B1DE657E4ABE2DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE75E6C1F5ECC60231DE70CA05DDE70 /* VIPERS-Converter-Protocol-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06141BD7482222D2815EA328929BF676 /* Pods-VIPERS-Converter-Protocol_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF3ACF7929733784B3F9D5819F89269 /* Build configuration list for PBXNativeTarget "Pods-VIPERS-Converter-Protocol_Tests" */;
+			buildPhases = (
+				A9B6EB0066BB1013F12B4D5F5C32290E /* Sources */,
+				A07BD36400A3719003EDD1CAE273FDB3 /* Frameworks */,
+				838A4A174D6C3ABDE679AB87D48854C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E34EA69BC63887D256C76EA033DD98 /* PBXTargetDependency */,
+			);
+			name = "Pods-VIPERS-Converter-Protocol_Tests";
+			productName = "Pods-VIPERS-Converter-Protocol_Tests";
+			productReference = CCCCD20F13AFEB9B10D12383D7912078 /* Pods_VIPERS_Converter_Protocol_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59707D5809C4F8619D3FA5018E8D3ECD /* VIPERS-Converter-Protocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB389EDD452E2480F10D151C6BA6F4F /* Build configuration list for PBXNativeTarget "VIPERS-Converter-Protocol" */;
+			buildPhases = (
+				23C96B559D348E0D443645FC878176F8 /* Sources */,
+				ADB3892F41CB41F5F30E76B36EE02CBB /* Frameworks */,
+				CDFEEAE588DCBBDA1B1DE657E4ABE2DC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VIPERS-Converter-Protocol";
+			productName = "VIPERS-Converter-Protocol";
+			productReference = EAEBEC6EC0867B35C40A51D361B46319 /* VIPERS_Converter_Protocol.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		698B8C87B066204FC062C4EFC3AC8961 /* Pods-VIPERS-Converter-Protocol_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C73010034230BA9B8BDD76D94FE5BD /* Build configuration list for PBXNativeTarget "Pods-VIPERS-Converter-Protocol_Example" */;
+			buildPhases = (
+				A2D9751F3758E6211E30EE1A1C59C3A4 /* Sources */,
+				8C017ACB50288BF4EF0A48E61D2119BA /* Frameworks */,
+				52D6BA6DE0937422BCF9F91511432C68 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5DD53E7E33FFC10F6B5AFEC9B908791 /* PBXTargetDependency */,
+			);
+			name = "Pods-VIPERS-Converter-Protocol_Example";
+			productName = "Pods-VIPERS-Converter-Protocol_Example";
+			productReference = 325CFA68EFB625394AFDBB46A38E15F8 /* Pods_VIPERS_Converter_Protocol_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					06141BD7482222D2815EA328929BF676 = {
+						LastSwiftMigration = 0800;
+					};
+					59707D5809C4F8619D3FA5018E8D3ECD = {
+						LastSwiftMigration = 0800;
+					};
+					698B8C87B066204FC062C4EFC3AC8961 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C5B7DA5E324C3BE104C8D880A773EB8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				698B8C87B066204FC062C4EFC3AC8961 /* Pods-VIPERS-Converter-Protocol_Example */,
+				06141BD7482222D2815EA328929BF676 /* Pods-VIPERS-Converter-Protocol_Tests */,
+				59707D5809C4F8619D3FA5018E8D3ECD /* VIPERS-Converter-Protocol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C96B559D348E0D443645FC878176F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC5ED6E1C63BFD525BE4546510AAD3F /* ComposedConverterProtocol.swift in Sources */,
+				9CB27693C1D4133E1D6092109DD3DEE9 /* ConverterProtocol.swift in Sources */,
+				B3881082A17130E2B1EEF3FAD765DEA2 /* TypedConverterProtocol.swift in Sources */,
+				B739D25C953803E343C6B540DC37B472 /* VIPERS-Converter-Protocol-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D9751F3758E6211E30EE1A1C59C3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0CA1C327ECC4646D1725C3E2415D68 /* Pods-VIPERS-Converter-Protocol_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B6EB0066BB1013F12B4D5F5C32290E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA033A839FE012785B374404BABE9E44 /* Pods-VIPERS-Converter-Protocol_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38E34EA69BC63887D256C76EA033DD98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VIPERS-Converter-Protocol";
+			target = 59707D5809C4F8619D3FA5018E8D3ECD /* VIPERS-Converter-Protocol */;
+			targetProxy = 3A09AA95275DE99B99F3519B206653E6 /* PBXContainerItemProxy */;
+		};
+		A5DD53E7E33FFC10F6B5AFEC9B908791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "VIPERS-Converter-Protocol";
+			target = 59707D5809C4F8619D3FA5018E8D3ECD /* VIPERS-Converter-Protocol */;
+			targetProxy = 610B07067A0BF31545BA70793D3CD3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40B9C5FC7B1E756245A171516500367E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF35C5E36C1C5D4A3D38559F57F8DF6B /* Pods-VIPERS-Converter-Protocol_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VIPERS-Converter-Protocol_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIPERS-Converter-Protocol_Tests/Pods-VIPERS-Converter-Protocol_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VIPERS_Converter_Protocol_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8627EB5FD79946EDC59AB3DBE7714B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DE92AE689423200F22F50FFD3EB3C9 /* VIPERS-Converter-Protocol.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VIPERS-Converter-Protocol/VIPERS-Converter-Protocol-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VIPERS-Converter-Protocol/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VIPERS-Converter-Protocol/VIPERS-Converter-Protocol.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VIPERS_Converter_Protocol;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89EEA700B1F51F31130A973FF14578BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6D096C5800B577A00941A1F08AE549 /* Pods-VIPERS-Converter-Protocol_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VIPERS-Converter-Protocol_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIPERS-Converter-Protocol_Example/Pods-VIPERS-Converter-Protocol_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VIPERS_Converter_Protocol_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B9C77367726E1B86299E9FD263EBE3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F379E934BAE567D475E28FD33A33C6 /* Pods-VIPERS-Converter-Protocol_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VIPERS-Converter-Protocol_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIPERS-Converter-Protocol_Tests/Pods-VIPERS-Converter-Protocol_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VIPERS_Converter_Protocol_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF7C24C10B6A79F122BE69C2BF14DEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DE92AE689423200F22F50FFD3EB3C9 /* VIPERS-Converter-Protocol.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VIPERS-Converter-Protocol/VIPERS-Converter-Protocol-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VIPERS-Converter-Protocol/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VIPERS-Converter-Protocol/VIPERS-Converter-Protocol.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VIPERS_Converter_Protocol;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCF60431D825654C5DE764E8B86D0FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FB1FFA8051B64114BDD83202E9A6C9 /* Pods-VIPERS-Converter-Protocol_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VIPERS-Converter-Protocol_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VIPERS-Converter-Protocol_Example/Pods-VIPERS-Converter-Protocol_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VIPERS_Converter_Protocol_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB389EDD452E2480F10D151C6BA6F4F /* Build configuration list for PBXNativeTarget "VIPERS-Converter-Protocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8627EB5FD79946EDC59AB3DBE7714B18 /* Debug */,
+				CF7C24C10B6A79F122BE69C2BF14DEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C73010034230BA9B8BDD76D94FE5BD /* Build configuration list for PBXNativeTarget "Pods-VIPERS-Converter-Protocol_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF60431D825654C5DE764E8B86D0FC4 /* Debug */,
+				89EEA700B1F51F31130A973FF14578BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF3ACF7929733784B3F9D5819F89269 /* Build configuration list for PBXNativeTarget "Pods-VIPERS-Converter-Protocol_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C77367726E1B86299E9FD263EBE3B0 /* Debug */,
+				40B9C5FC7B1E756245A171516500367E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
